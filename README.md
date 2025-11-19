@@ -4,19 +4,19 @@ Functionalitati principale si modul de implementare
 
 Crearea unei companii cu departamente – realizata prin clase separate (Company si Department), unde Company contine o lista de departamente (compozitie).
 
-Stabilirea bugetului pentru departamente – implementat prin clasa nested Budget din interiorul clasei Department.
+Stabilirea bugetului pentru departamente 
 
 Angajarea angajatilor – se face prin mostenire; clasele Engineer si Manager mostenesc din Employee, iar Company gestioneaza angajatii prin metode si operatori supraincarcati.
 
 Concedierea angajatilor – implementata cu operatorul -= in clasa Company pentru eliminarea angajatilor dupa ID.
 
-Afisarea angajatilor si a departamentelor – realizata prin functii membre si prin supraincarcarea operatorului << unde este necesar.
+Afisarea angajatilor si a departamentelor 
 
 Calcularea cheltuielilor cu salariile – Company parcurge toti angajatii si aduna salariile folosind clasa Money.
 
-Crearea si afisarea produselor – se foloseste clasa template Product<T> pentru a putea crea produse cu orice tip de valoare.
+Crearea si afisarea produselor 
 
-Gestionarea resurselor generice – realizata cu un template ResourcePool<T>, care poate stoca si administra diferite tipuri de resurse.
+Gestionarea resurselor generice 
 
 Supraincarcarea operatorilor (Money) – operatorii +, -, == si << permit manipularea sumelor de bani intr-un mod simplu.
 
