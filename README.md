@@ -2,13 +2,13 @@ Simulator de economie – Gestionarea unei companii
 
 Functionalitati principale si modul de implementare
 
-Crearea unei companii cu departamente – realizata prin clase separate (Company si Department), unde Company contine o lista de departamente (compozitie).
+Crearea unei companii cu departamente – realizata prin clase separate (Company si Department), unde Company contine o lista de departamente 
 
 Stabilirea bugetului pentru departamente 
 
 Angajarea angajatilor – se face prin mostenire; clasele Engineer si Manager mostenesc din Employee, iar Company gestioneaza angajatii prin metode si operatori supraincarcati.
 
-Concedierea angajatilor – implementata cu operatorul -= in clasa Company pentru eliminarea angajatilor dupa ID.
+Concedierea angajatilor  in clasa Company pentru eliminarea angajatilor dupa ID.
 
 Afisarea angajatilor si a departamentelor 
 
